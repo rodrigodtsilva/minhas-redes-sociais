@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width:350px) and (max-width: 768px){ /* Celular */
+@media screen and (min-width:300px) and (max-width: 768px){ /* Celular */
     #telefone{
         background-image: url(../imagens/frame-iphone-medio.png);
         background-repeat: no-repeat;
