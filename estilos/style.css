@@ -21,7 +21,7 @@ main{
     height: 100vh;
 }
 #telefone{
-    background-image: url(/imagens/frame-iphone-menor.png);
+    background-image: url(../imagens/frame-iphone-menor.png);
     background-repeat: no-repeat;
     height: 470px;
     width: 233px;
@@ -31,7 +31,7 @@ main{
     transform: translate( -50%, -50%);
 }
 #tela{
-    background-image: url(/imagens-rodrigo/tela-inicial.PNG);
+    background-image: url(../imagens-rodrigo/tela-inicial.png);
     background-size: contain;
     height: 353px;
     width: 200px;

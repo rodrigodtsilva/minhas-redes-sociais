@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
-
 @media screen and (min-width:600px) and (max-width: 768px){ /* Celular */
     #telefone{
-        background-image: url(/imagens/frame-iphone-medio.png);
+        background-image: url(../imagens/frame-iphone-medio.png);
         background-repeat: no-repeat;
         height: 550px;
         width: 273px;
@@ -13,7 +12,7 @@
         transform: translate( -50%, -50%);
     }
     #tela{
-        background-image: url(/imagens-rodrigo/tela-inicial.PNG);
+        background-image: url(../imagens-rodrigo/tela-inicial.png);
         background-size: contain;
         height: 414px;
         width: 235px;
@@ -28,9 +27,9 @@
     }
 }
 
-@media screen and (min-width: 768px){ /* todas as tela acima das de celualr */
+@media screen and (min-width: 769px){ /* todas as tela acima das de celualr */
     #telefone{
-        background-image: url(/imagens/frame-iphone.png);
+        background-image: url(../imagens/frame-iphone.png);
         background-repeat: no-repeat;
         height: 627px;
         width: 311px;
@@ -40,7 +39,7 @@
         transform: translate( -50%, -50%);
     }
     #tela{
-        background-image: url(/imagens-rodrigo/tela-inicial.PNG);
+        background-image: url(../imagens-rodrigo/tela-inicial.png);
         background-size: contain;
         height: 473px;
         width: 269px;
@@ -53,4 +52,3 @@
         padding: 15px 15px 8px 0px;
     }
 }
-
